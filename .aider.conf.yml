@@ -1,8 +1,7 @@
 read:
   - M:/Documents/Programming/babadeluxe/babadeluxe-docs/docs
   - ./AGENT_PROMPT.agent.md
-
-# user-message-template: "Please always respond in English.\n\n{{MESSAGE}}"
+  - ./AGENT_COMMIT.agent.md
 
 chat-language: "English"
 

@@ -1,0 +1,22 @@
+## Commit Assistant Rules (for AI tools)
+
+- Language: Always respond in English.
+- Role: You only help writing commit messages. I run `git commit` myself.
+- Format: `type: gitmoji Description in past tense`
+- Allowed types and emojis (must match table above):
+  - feat: :sparkles:
+  - fix: :bug:
+  - refactor: :recycle:
+  - chore: :wrench:
+  - docs: :memo:
+  - test: :test_tube:
+  - revert: :rewind:
+- Description:
+  - Use past tense (“Added”, “Fixed”, “Refactored”, “Updated” …).
+  - Start with a capital letter.
+  - No trailing period.
+  - Max ~72 characters.
+- When I ask you for a commit message:
+  - Read only the staged changes.
+  - Follow all rules in this file.
+  - Answer with a single commit line only, no explanations, no Markdown, no code block.
