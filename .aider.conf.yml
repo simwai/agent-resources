@@ -1,6 +1,6 @@
 read:
   - M:/Documents/Programming/babadeluxe/babadeluxe-docs/docs
-  - M:/Documents/Programming/babadeluxe/babadeluxe-webview/AGENT_PROMPT.md.old
+  - ./AGENT_PROMPT.agent.md
 
 # user-message-template: "Please always respond in English.\n\n{{MESSAGE}}"
 
