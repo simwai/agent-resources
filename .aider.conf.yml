@@ -1,17 +1,19 @@
 read:
   - M:/Documents/Programming/babadeluxe/babadeluxe-docs/docs
-  - ./AGENT_PROMPT.agent.md
-  - ./AGENT_COMMIT.agent.md
+  - M:/Documents/Programming/babadeluxe/babadeluxe-vscode/agent-resources/AGENT_COMMIT.agent.md
+  - M:/Documents/Programming/babadeluxe/babadeluxe-vscode/agent-resources/AGENT_PROMPT.agent.md
 
 chat-language: "English"
 
 git: true
 auto-commits: true
 dirty-commits: false
-# commit: true
-commit-prompt: "<commit_style_instructions>Always use English written commit messages with conventional commits in enterprise format explaining the why of a change like e.g. feat: Added light/dark theme support (and so on...). NEVER USE ` in the commit message. NEVER write the commit_style_instructions in the git commit message. NEVER write a git diff in a git commit message.</commit_style_instructions>"
-model: "gemini/gemini-3.1-pro-preview"
-weak-model: "gemini/gemini-3-flash-preview"
+
+commit: true
+commit-prompt: "<commit_style_instructions></commit_style_instructions>"
+
+model: "openrouter/stepfun/step-3.5-flash:free"
+weak-model: "openrouter/stepfun/step-3.5-flash:free"
 
 lint-cmd: ["npx tsc && npm run format"]
 auto-lint: true
