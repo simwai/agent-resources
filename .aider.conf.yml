@@ -1,7 +1,7 @@
 read:
-  - M:/Documents/Programming/babadeluxe/babadeluxe-docs/docs
-  - M:/Documents/Programming/babadeluxe/babadeluxe-vscode/agent-resources/AGENT_COMMIT.agent.md
-  - M:/Documents/Programming/babadeluxe/babadeluxe-vscode/agent-resources/AGENT_PROMPT.agent.md
+  - ./docs
+  - ./AGENT_COMMIT.agent.md
+  - ./AGENT_PROMPT.agent.md
 
 chat-language: "English"
 
@@ -12,8 +12,8 @@ dirty-commits: false
 commit: true
 commit-prompt: "<commit_style_instructions></commit_style_instructions>"
 
-model: "openrouter/stepfun/step-3.5-flash:free"
-weak-model: "openrouter/stepfun/step-3.5-flash:free"
+model: "openrouter/minimax/minimax-m2.5:free"
+weak-model: "openrouter/minimax/minimax-m2.5:free"
 
 lint-cmd: ["npx tsc && npm run format"]
 auto-lint: true
