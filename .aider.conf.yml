@@ -10,7 +10,7 @@ auto-commits: true
 dirty-commits: false
 
 commit: true
-commit-prompt: "<commit_style_instructions></commit_style_instructions>"
+# commit-prompt: "<commit_style_instructions></commit_style_instructions>"
 
 model: "openrouter/minimax/minimax-m2.5:free"
 weak-model: "openrouter/minimax/minimax-m2.5:free"
