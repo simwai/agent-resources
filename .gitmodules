@@ -1,0 +1,4 @@
+[submodule "perplexity-prompts"]
+	path = perplexity-prompts
+	url = https://github.com/simwai/perplexity-prompts.git
+	branch = main
